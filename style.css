@@ -1,0 +1,106 @@
+/* Style Rule 1: Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Style Rule 2: Header styling */
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Style Rule 3: Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.2);
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.4);
+    transform: translateY(-2px);
+}
+
+/* Style Rule 4: Main content sections */
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Style Rule 5: Images */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    display: block;
+    margin: 20px auto;
+}
+
+/* Style Rule 6: Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 50px;
+}
+
+/* Style Rule 7: Headings */
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style Rule 8: Links */
+a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style Rule 9: Lists */
+ol {
+    padding-left: 30px;
+}
+
+ol li {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/* Style Rule 10: Responsive design */
+@media (max-width: 768px) {
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+    
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
